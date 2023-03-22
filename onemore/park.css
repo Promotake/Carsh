@@ -1,0 +1,172 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+header .logo{
+	margin-left: 100px;
+}
+header {
+	height: 115px;
+	width: 100%;
+	background-color: #c5f222;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 20px;
+}
+
+nav ul {
+	display: flex;
+	align-items: center;
+	list-style: none;
+}
+
+.hover:hover{
+	color: #fff
+
+}
+nav li {
+	margin-right: 45px;
+	font-family: 'Euclid Circular A', sans-serif;
+	font-weight: 600;
+	font-size: 24px;
+}
+
+nav a {
+	color: black;
+	text-decoration: none;
+	margin: 0 10px;
+}
+
+
+main {
+    width: 80%; /* Ширина блока main */
+    margin: 0 auto; 
+    
+}
+
+
+.parkovka{
+	margin-top: 0px;
+	width: 100%;
+	height: 1125px;
+	margin-left: -8px;
+	float: left;
+	position: absolute;
+}
+.park{
+	font-family: Euclid Circular A;
+	font-weight: Bold;
+	font-size: 72px;
+	float: left;
+	margin-top: -14px;
+	margin-left: 20%
+}
+.mojno{
+	font-family: Euclid Circular A;
+	font-weight: Bold;
+	font-size: 48px;
+	float: left;
+	margin-top: 8px;
+	margin-left: 8.3%;
+}
+.gid{
+	margin-left: 12.9%;
+	margin-top: -16.4%;
+	float: left;
+	width: 400px;
+	height: 400px;
+}
+.backf{
+	margin-left: 6.6%;
+	
+	float: left;
+	width: 1042px;
+	height: 232px;
+	position: relative;
+	background: url(img/back1.png);
+}
+		
+.vnutr{
+	font-family: Euclid Circular A;
+	font-weight: Regulyar;
+	font-size: 30px;
+	float: left;
+	margin-top: 100px;
+	margin-left: 8.3%;
+	position: absolute;
+	margin: 0.5% 0 0 1.9%;
+
+}
+.backs{
+	margin-left: 47.9%;
+	
+	float: left;
+	width: 579px;
+	height: 246px;
+	position	: relative;
+	background: url(img/back2.png);
+}
+p.backs{
+	 margin-top: 5em;
+    margin-bottom: 5em;
+;
+}
+.vnutrs{
+	font-family: Euclid Circular A;
+	font-weight: Regulyar;
+	font-size: 30px;
+	float: left;
+	
+	position: absolute;
+	margin: 2.2% 0 0 2.5%;
+
+}
+.nelzya{
+	font-family: Euclid Circular A;
+	font-weight: Bold;
+	font-size: 48px;
+	float: left;
+	margin-top: 1%;
+	margin-left: 44%;
+}
+
+
+footer {
+	height: 120px;
+	width: 100%;
+	background-color: #000;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	/*padding: 0 20px;*/
+	padding: 0 10px;
+	position: absolute;
+	bottom: 0;
+}
+
+.car{
+	margin-top: -1000px;
+	position: absolute;
+}
+footer .logo {
+	font-family: 'Franklin Gothic Medium', sans-serif;
+	font-size: 72px;
+	color: white;
+	margin-left: 100px;
+}
+
+footer .contacts {
+	font-family: 'Euclid Circular A', sans-serif;
+	font-style: italic;
+	font-size: 24px;
+	color: white;
+}
+
+footer .contacts a {
+	color: white;
+	text-decoration: none;
+	margin-right: 20px;
+}

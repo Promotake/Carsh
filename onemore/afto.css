@@ -1,0 +1,116 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	overflow: hidden;
+}
+header .logo{
+	margin-left: 100px;
+}
+header {
+	height: 115px;
+	width: 100%;
+	background-color: #c5f222;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 20px;
+}
+
+nav ul {
+	display: flex;
+	align-items: center;
+	list-style: none;
+}
+
+
+nav li {
+	margin-right: 45px;
+	font-family: 'Euclid Circular A', sans-serif;
+	font-weight: 600;
+	font-size: 24px;
+}
+
+nav a {
+	color: black;
+	text-decoration: none;
+	margin: 0 10px;
+    transition: 0.2s;
+}
+nav a:hover{
+    color:rgb(28, 28, 189)
+}
+
+main {
+    width: 80%; /* Ширина блока main */
+    margin: 0 auto; 
+    
+}
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 80vh;
+  }
+
+  
+
+footer {
+	height: 120px;
+	width: 100%;
+	background-color: #000;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	/*padding: 0 20px;*/
+	padding: 0 10px;
+	position: absolute;
+	bottom: 0;
+}
+.back {
+  
+  width: 1850px;
+  height: 140px;
+  margin: 0 auto;  
+}
+.car {
+    width: 231px;
+    height: 95px;
+    margin-left: 1610px;
+    margin-top: -80px;
+    float: left;
+  }
+.car-name {
+  font-family: 'Franklin Gothic Medium', sans-serif;
+  font-size: 40px;
+  margin-bottom: 10px;
+  margin-top: 40px;
+
+}
+.carton a {
+    text-decoration: none;
+    color:#000;
+    transition: 0.2s;
+}
+.carton a:hover{
+    color:rgb(9, 9, 65)
+}
+footer .logo {
+	font-family: 'Franklin Gothic Medium', sans-serif;
+	font-size: 72px;
+	color: white;
+	margin-left: 100px;
+}
+
+footer .contacts {
+	font-family: 'Euclid Circular A', sans-serif;
+	font-style: italic;
+	font-size: 24px;
+	color: white;
+}
+
+footer .contacts a {
+	color: white;
+	text-decoration: none;
+	margin-right: 20px;
+}
